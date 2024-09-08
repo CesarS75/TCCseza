@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    font-size: 1.4rem;
+    border: black 6px solid;
+    height: 40vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div input, button {
+    margin: 1rem 0px 1rem 0px;
+    padding: 0.6rem;
+}
+.add {
+    background-color: green;
+}
+.delete {
+    background-color: brown;
+}
+.view {
+    background-color: cornflowerblue;
+}
+.update {
+    background-color: cadetblue;
+}

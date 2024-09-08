@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSLib</title>
+    <!--link css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <!--fonte bungee-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <!--fonte montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <nav id="sidebar">
+        <a href="./index.html"><img src="images/logo.png" alt="logo" id="logo"> </a>
+        <div class="side">
+          <a class="navside" href ="pages/slides/navbar.html">navbars</a>
+          <a class="navside" href ="pages/slides/sidebar.html">sidebars</a>
+          <a class="navside" href ="pages/slides/footer.html">footers</a>
+          <a class="navside" href ="pages/slides/header.html">headers</a>
+          <a class="navside" href ="pages/slides/modals.html">modals</a>
+          <a class="navside" href ="pages/slides/forms.html">forms</a>
+          <a class="navside" href ="pages/slides/alerts.html">alerts</a>
+          <a class="navside" href ="pages/slides/button.html">buttons</a>
+          <a class="navside" href ="pages/slides/card.html">cards</a>
+          <a class="navside" href ="pages/slides/carousel.html">carousel</a>
+          <a class="navside" href ="pages/slides/dropdown.html">dpdowns</a>
+          <a class="navside" href ="pages/slides/pgbars.html">pgbars</a>
+        </div>
+      </nav>  
+      <nav id="pages">
+        <a href="pages/introducao.html">
+          <h3 class="mg">
+                Introdução
+          </h3>
+        </a>
+        <a href="pages/admin.html">
+          <h3 class="mg">
+                Admin
+          </h3>
+        </a>
+        <a href="pages/sobre.html">
+          <h3 class="mg">
+                Sobre
+          </h3>
+        </a>
+      </nav>
+        <div id="mode">
+        <!--botão para fazer a troca de estados dark/light-->
+        <button id="toggle" class="button">
+          <img src="images/sun.png" alt="mode">
+        </button>
+        </div>
+    </header>
+
+    <container id="container_slides">
+      <div id="title">
+        <h2>CSS Library</h2>
+      </div>
+      <div id="slides">
+        <div id="slideshow-1" data-component="slideshow">
+          <div role="list">
+            <div class="slide">
+              <a class="texts" href ="pages/slides/navbar.html">navbars</a>
+              <h5 class="resumo">
+                é um elemento da interface de usuário em sites ou aplicativos,
+                 normalmente posicionado no topo ou lateral da página, que facilita o acesso às principais seções ou funcionalidades.
+                 Ela geralmente contém links ou ícones organizados de forma clara e intuitiva, podendo ser responsiva para se adaptar a diferentes dispositivos.
+              </h5>
+            </div>
+            <div class="slide">
+              <a class="texts" href="pages/slides/sidebar.html">sidebars</a>
+              <h5 class="resumo">
+                é uma barra lateral utilizada em sites ou aplicativos para organizar e exibir conteúdos ou funcionalidades complementares,
+                 como menus, filtros, widgets ou links. Ela ajuda a manter o layout limpo, oferecendo navegação adicional sem interferir diretamente no conteúdo principal,
+                 podendo ser fixa ou expansível conforme a necessidade do usuário.
+              </h5>
+            </div>
+            <div class="slide">
+              <a class="texts" href="pages/slides/footer.html">footers</a>
+              <h5 class="resumo">
+                é a seção localizada na parte inferior de um site ou aplicativo, geralmente utilizada para exibir informações complementares,
+                 como links importantes, dados de contato, créditos, políticas de privacidade e ícones de redes sociais.
+                 Ele mantém uma estrutura consistente em todas as páginas, oferecendo suporte à navegação e acessibilidade sem interferir no conteúdo principal.
+              </h5>
+            </div>
+            <div class="slide">
+              <a class="texts" href="pages/slides/header.html">headers</a>
+              <h5 class="resumo">
+                é a seção localizada na parte superior de um site ou aplicativo, geralmente utilizada para exibir o logotipo,
+                 nome da marca, menu de navegação principal e, em alguns casos, elementos como ícones de busca ou login.
+                 Ele estabelece a identidade visual e facilita o acesso rápido às principais seções,
+                 sendo um componente crucial para a organização e usabilidade do site.
+              </h5>
+            </div>
+          </div>
+        </div>
+  
+        <div id="slideshow-2" data-component="slideshow">
+          <div role="list">
+            <div class="slide">
+              <a class="texts" href="pages/slides/modals.html">modals</a>
+              <h5 class="resumo">
+                são janelas sobrepostas ao conteúdo principal de um site ou aplicativo,
+                 usadas para exibir informações importantes ou interações específicas sem redirecionar o usuário para outra página.
+                 Elas bloqueiam a interação com o conteúdo subjacente até serem fechadas, sendo ideais para alertas, formulários ou confirmações.
+                 Seu uso eficiente melhora a experiência do usuário ao focar sua atenção em uma tarefa específica.
+              </h5>
+            </div>
+            <div class="slide">
+              <a class="texts" href="pages/slides/forms.html">forms</a>
+              <h5 class="resumo">
+                são componentes essenciais em sites e aplicativos para coletar dados dos usuários, como informações de contato, login ou feedback.
+                 Eles geralmente consistem em campos de entrada,
+                 como caixas de texto, botões de opção e seletores, além de botões de envio.
+              </h5>
+            </div>
+            <div class="slide">
+              <a class="texts" href="pages/slides/alerts.html">alerts</a>
+              <h5 class="resumo">
+                são mensagens de notificação exibidas em sites ou aplicativos para informar os usuários sobre ações,
+                 eventos ou estados importantes, como erros, avisos ou confirmações.
+                 Eles geralmente aparecem de forma destacada, utilizando cores e ícones que indicam a natureza da mensagem.
+              </h5>
+            </div>
+            <div class="slide">
+              <a class="texts" href="pages/slides/button.html">buttons</a>
+              <h5 class="resumo">
+                são elementos interativos fundamentais em sites e aplicativos, projetados para iniciar ações ou comandos quando clicados pelo usuário.
+                 Eles podem ter diferentes estilos, tamanhos e cores, adaptando-se ao contexto e à funcionalidade que representam,
+                 como enviar um formulário, abrir um modal ou navegar para outra página.
+              </h5>
+            </div>
+          </div>
+        </div>
+  
+        <div id="slideshow-3" data-component="slideshow">
+          <div role="list">
+            <div class="slide">
+              <a class="texts" href="pages/slides/card.html">cards</a>
+              <h5 class="resumo">
+                são contêineres de informações usados em sites e aplicativos para exibir dados de forma compacta e organizada,
+                 muitas vezes com uma imagem, título, descrição e ações relacionadas. Eles ajudam a apresentar conteúdo visualmente atraente e fácil de digerir,
+                 facilitando a navegação e a interação com diferentes seções ou elementos de um aplicativo ou site.
+              </h5>
+            </div>
+            <div class="slide">
+              <a class="texts" href="pages/slides/carousel.html">carousels</a>
+              <h5 class="resumo">
+                são componentes de interface que permitem exibir múltiplos itens, como imagens ou conteúdos,
+                 em um espaço limitado, alternando entre eles com rotação ou navegação manual. Eles são úteis para mostrar coleções de dados ou conteúdo visualmente dinâmico,
+                 economizando espaço e mantendo a apresentação organizada, enquanto proporcionam uma experiência interativa ao usuário.
+              </h5>
+            </div>
+            <div class="slide">
+              <a class="texts" href="pages/slides/dropdown.html">dropdowns</a>
+              <h5 class="resumo">
+                são menus suspensos usados em interfaces de usuário para exibir uma lista de opções que podem ser selecionadas.
+                 Ao clicar no botão ou campo associado ao dropdown, o menu se expande, mostrando as opções disponíveis, e o usuário pode escolher uma delas.
+                 Essa abordagem economiza espaço na tela e organiza informações de forma compacta e acessível.
+              </h5>
+            </div>
+            <div class="slide">
+              <a class="texts" href="pages/slides/pgbars.html">progressbars</a>
+              <h5 class="resumo">
+                são elementos visuais que indicam o progresso de uma tarefa ou processo em andamento.
+                 Elas mostram de maneira gráfica quanto do processo foi concluído em relação ao total, geralmente usando uma barra preenchida que avança à medida que o progresso aumenta.
+                 Isso ajuda os usuários a entenderem o tempo restante e o status atual da operação.
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <h4>©2024</h4>
+      </footer>
+    </container>
+    <!--link script-->
+      <script src="js/slide.js"></script>
+      <script src="js/mode.js"></script>
+</body>
+</html>
