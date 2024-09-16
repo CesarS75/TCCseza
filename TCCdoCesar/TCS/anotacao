@@ -1,0 +1,10 @@
+                <tr>
+                    <td><label for="data">Data:</label></td>
+                    <td><input type="date" name="data" size="14" maxlength="14" required>
+                </tr>
+                <tr>
+                    <td><label for="valor">Valor:</label></td>
+                    <td><input type="number" name="valor" size="30" maxlength="30" required>
+                </tr>
+
+                codigo_cliente = idcat
