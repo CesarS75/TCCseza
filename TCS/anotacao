@@ -1,0 +1,1 @@
+SELECT * FROM categorias INNER JOIN componentes ON categorias.IDCategoria = componentes.IDCategoria order by componentes.IDCategoria;
