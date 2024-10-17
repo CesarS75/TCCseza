@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebars</title>
+    <link rel="stylesheet" href="../../css/contents/stylepages.css">
+    <link rel="stylesheet" href="../../css/contents/modal.css">
+    <!--fonte bungee-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <!--fonte montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+      <nav id="navbar">
+          <div id="logo">
+            <a href="../../index.html">
+              <img src="../../images/logo.png" alt="logo">
+            </a>
+          </div>
+        <div class="categorias">
+          <a href="../int.html">
+            <p>Introdução</p>
+          </a>
+          <a href="../sobre.html">
+            <p>Sobre</p>
+          </a>
+        </div>
+        <div id="mode">
+          <!--botão para fazer a troca de estados dark/light-->
+          <button id="toggle" class="button">
+            <img src="../../images/sun.png" alt="mode">
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+    <article id="sidebar">
+            <div class="side">
+              <a class="navside" href ="./navbar.html">navbars</a>
+              <a class="navside" href ="./sidebar.html">sidebars</a>
+              <a class="navside" href ="./footer.html">footers</a>
+              <a class="navside" href ="./header.html">headers</a>
+              <a class="navside" href ="./modals.html">modals</a>
+              <a class="navside" href ="./forms.html">forms</a>
+              <a class="navside" href ="./alerts.html">alerts</a>
+              <a class="navside" href ="./button.html">buttons</a>
+              <a class="navside" href ="./card.html">cards</a>
+              <a class="navside" href ="./carousel.html">carousel</a>
+              <a class="navside" href ="./dropdown.html">dpdowns</a>
+              <a class="navside" href ="./pgbars.html">pgbars</a>
+            </div>
+      </article>
+      <section class="cards">
+          <!--Card 1-->
+          <div class="card">
+              <strong>
+              <p class="title">Sidebar1</p>
+              </strong>
+              <img src="../../images/teste.png" alt="Fotinho de um exemplo de navbar">
+              <div class="descricao">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sequi veniam perferendis vero odio earum</p>
+                <button class="open-modal-button">
+                  Modal
+                </button>
+              </div>
+          </div>
+          <!--Modal Only-->
+          <div class="modal-container">
+            <div class="modal">
+              <div class="close"><button class="close-btn" onclick="closeModal()">Close</button></div>
+              <div class="modalpt1">
+                <img src="../../images/teste.png" alt="Fotinho do componente" >
+              </div>
+              <div class="modalpt2">
+                  <div class="codHtml">
+                    <img src="#" alt="Aqui vai ter a foto do código">
+                    <p id="codigoHtml">alou alou alou</p>
+                    <button onclick="copiarTextoHtml()">Copiar</button>
+                  </div>
+                  <div class="codCss">
+                      <img src="#" alt="Aqui vai ter a foto do código">
+                      <p id="codigoCss">cavalinho pocotó</p>
+                      <button onclick="copiarTextoCss()">Copiar</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!--Card 2-->
+          <div class="card">
+            <strong>
+            <p class="title">Sidebar2</p>
+            </strong>
+            <img src="../../images/teste.png" alt="Fotinho de um exemplo de navbar">
+            <div class="descricao">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sequi veniam perferendis vero odio earum</p>
+              <button class="open-modal-button2">
+                Modal2
+              </button>
+            </div>
+        </div>
+        <!--Modal Only-->
+        <div class="modal-container2">
+          <div class="modal2">
+            <div class="close"><button class="close-btn2" onclick="closeModal2()">Close</button></div>
+            <div class="modalpt12">
+              <img src="../../images/teste.png" alt="fotinha de teste">
+            </div>
+            <div class="modalpt22">
+                <div class="codHtml">
+                  <img src="../../images/paleta.png" alt="aqui vai ter o codigohtml2">
+                  <p id="codigoHtml2">eu sou o codigohtml2</p>
+                  <button onclick="copiarTextoHtml2()">Copiar</button>
+                </div>
+                <div class="codCss">
+                  <img src="#" alt="aqui vai ter a foto do código css">
+                    <p id="codigoCss2">Eu sou o codigocss2</p>
+                    <button onclick="copiarTextoCss2()">Copiar</button>
+                </div>
+            </div>
+          </div>
+        </div>
+            <!--Card 3-->
+            
+            <!--Card 4-->
+            
+            <!--Card 5-->
+            
+            <!--Card 6-->
+            
+            <!--Card 7-->
+            
+            <!--Card 8-->
+            
+            <!--Card 9-->
+            
+        </section>
+    </main>
+    <footer>
+      <p> &copy ETEC 2024 <a href="#"> ADMIN
+      </a></p>
+      <p>Contato: @csslibraryetec@gmail.com</p>
+    </footer>
+    <script src="../../js/copy.js"></script>
+    <script src="../../js/modal.js"></script>
+    <script src="../../js/mode.js"></script>
+</body>
+</html>
